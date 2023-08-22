@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckPoint 1 - JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Lista de taferas</h1>
+
+    <form id="formulario">
+
+        <div>
+            <label for="idDescricao">
+                Descrição
+            </label>
+            <input type="text" name="descricao" id="idDescricao">
+        </div>
+        
+        <div>
+            <label for="idAutor">
+                Autor
+            </label>
+            <input type="text" name="autor" id="idAutor">
+        </div>
+        
+        <div>
+            <label for="idDepartamento">
+                Departamento
+            </label>
+            <input type="text" name="departamento" id="idDepartamento">
+        </div>
+        
+        <div>
+            <label for="idImportancia">
+                Importância
+            </label>
+            <input type="number" name="importancia" id="idImportancia">
+        </div>
+        
+        <div>
+            <label for="idValor">
+                Valor
+            </label>
+            <input type="text" name="valor" id="idValor">
+        </div>
+        
+        <div>
+            <label for="idDuracao">
+                Duração
+            </label>
+            <input type="number" name="duracao" id="idDuracao">
+        </div>
+        
+        <div>
+            <button id="adicionar" type="submit">Adicionar Tarefa</button>
+            <button id="remover" type="submit">Remover Tarefas Concluídas</button>
+        </div>
+    </form>
+    
+    <h2>Tarefas</h2>
+    <table id="tabelaTarefas">
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Autor</th>
+                <th>Departamento</th>
+                <th>Importância</th>
+                <th>Valor</th>
+                <th>Duração</th>
+                <th>Concluída</th>
+            </tr>
+        </thead>
+        <tbody id="listaTarefas">
+        </tbody>
+    </table>
+
+
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>

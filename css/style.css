@@ -1,0 +1,71 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilizando os botões */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilizando o formulário */
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilizando a seção de cabeçalho */
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilizando a tabela de tarefas */
+#tabelaTarefas {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+input[type="checkbox"]:checked {
+    transform: scale(1.3);
+}
+
+/* Adicionando um espaçamento entre os botões de ação */
+#listaTarefas td:last-child {
+    padding-left: 10px;
+}
